@@ -37,6 +37,9 @@ public struct GetCatalogRepository<
     public func put(id: Int) -> AnyPublisher<[CatalogDomainModel], Error> {
         fatalError()
     }
+    public func noted(id: Int) -> AnyPublisher<Noted, Error> {
+        fatalError()
+    }
     public func check(id: Int) -> AnyPublisher<Bool, Error> {
         fatalError()
     }
